@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "JoyinCheckin.CheckedInViewController.viewDidLoad (JoyinCheckin.CheckedInViewController)() -&gt; ():CheckedInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.unchecked">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.UncheckedViewController.tableView (JoyinCheckin.UncheckedViewController)(ObjectiveC.UITableView, didSelectRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ():UncheckedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.checked.values.array">
+            </PersistentString>
+            <PersistentString
+               value = "self.unchecked.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.QRCodeReader.cancelAction (JoyinCheckin.QRCodeReader)(ObjectiveC.UIButton) -&gt; ():QRCodeReader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "completionBlock">
+            </PersistentString>
+            <PersistentString
+               value = "delegate?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.ViewController.(scan (JoyinCheckin.ViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contacts[result!]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.ViewController.viewDidLoad (JoyinCheckin.ViewController)() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contacts[0]">
+            </PersistentString>
+            <PersistentString
+               value = "contact.values.array[0]">
+            </PersistentString>
+            <PersistentString
+               value = "contact[&quot;name&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.CSV.parseRows (JoyinCheckin.CSV)(fromLines : Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;:CSV.swift">
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.CheckedInViewController.(scan (JoyinCheckin.CheckedInViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1):CheckedInViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.CheckedInViewController.updateCounter (JoyinCheckin.CheckedInViewController)() -&gt; ():CheckedInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(self.checked.count)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.UncheckedViewController.updateCounter (JoyinCheckin.UncheckedViewController)() -&gt; ():UncheckedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.checked.keys.array">
+            </PersistentString>
+            <PersistentString
+               value = "self.checked.keys.array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JoyinCheckin.CSV.init (JoyinCheckin.CSV.Type)(contentsOfURL : ObjectiveC.NSURL, delimiter : ObjectiveC.NSCharacterSet, error : Swift.AutoreleasingUnsafeMutablePointer&lt;Swift.Optional&lt;ObjectiveC.NSError&gt;&gt;) -&gt; Swift.Optional&lt;JoyinCheckin.CSV&gt;:CSV.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url.path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

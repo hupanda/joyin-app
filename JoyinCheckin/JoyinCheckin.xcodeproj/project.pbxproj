@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56A4FFC1A3DCD2B009D5E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A4FFB1A3DCD2B009D5E7A /* AppDelegate.swift */; };
+		A56A4FFF1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A56A4FFD1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodeld */; };
+		A56A50011A3DCD2B009D5E7A /* UncheckedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A50001A3DCD2B009D5E7A /* UncheckedViewController.swift */; };
+		A56A50041A3DCD2B009D5E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A50021A3DCD2B009D5E7A /* Main.storyboard */; };
+		A56A50061A3DCD2B009D5E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56A50051A3DCD2B009D5E7A /* Images.xcassets */; };
+		A56A50091A3DCD2B009D5E7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56A50071A3DCD2B009D5E7A /* LaunchScreen.xib */; };
+		A56A50151A3DCD2B009D5E7A /* JoyinCheckinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A50141A3DCD2B009D5E7A /* JoyinCheckinTests.swift */; };
+		A56A50201A3F43CD009D5E7A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A501E1A3F43CD009D5E7A /* icon.png */; };
+		A56A50211A3F43CD009D5E7A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A501F1A3F43CD009D5E7A /* icon@2x.png */; };
+		A56A50251A3F483D009D5E7A /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A50241A3F483D009D5E7A /* CSV.swift */; };
+		A5B7E3CE1A3F99DC00FFEDA4 /* CheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B7E3CD1A3F99DC00FFEDA4 /* CheckedInViewController.swift */; };
+		A5CE0F6E1A3F4D7D00366452 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE0F6B1A3F4D7D00366452 /* QRCodeReader.swift */; };
+		A5CE0F6F1A3F4D7D00366452 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE0F6C1A3F4D7D00366452 /* ReaderView.swift */; };
+		A5CE0F701A3F4D7D00366452 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE0F6D1A3F4D7D00366452 /* SwitchCameraButton.swift */; };
+		A5CE0F721A3F50C800366452 /* contact.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CE0F711A3F50C800366452 /* contact.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56A500F1A3DCD2B009D5E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56A4FEE1A3DCD2B009D5E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56A4FF51A3DCD2B009D5E7A;
+			remoteInfo = JoyinCheckin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56A4FF61A3DCD2B009D5E7A /* JoyinCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyinCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A4FFA1A3DCD2B009D5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A4FFB1A3DCD2B009D5E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56A4FFE1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JoyinCheckin.xcdatamodel; sourceTree = "<group>"; };
+		A56A50001A3DCD2B009D5E7A /* UncheckedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncheckedViewController.swift; sourceTree = "<group>"; };
+		A56A50031A3DCD2B009D5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A56A50051A3DCD2B009D5E7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A56A50081A3DCD2B009D5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A56A500E1A3DCD2B009D5E7A /* JoyinCheckinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyinCheckinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A50131A3DCD2B009D5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A50141A3DCD2B009D5E7A /* JoyinCheckinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyinCheckinTests.swift; sourceTree = "<group>"; };
+		A56A501E1A3F43CD009D5E7A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A56A501F1A3F43CD009D5E7A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A56A50241A3F483D009D5E7A /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		A5B7E3CD1A3F99DC00FFEDA4 /* CheckedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckedInViewController.swift; sourceTree = "<group>"; };
+		A5CE0F6B1A3F4D7D00366452 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		A5CE0F6C1A3F4D7D00366452 /* ReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		A5CE0F6D1A3F4D7D00366452 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		A5CE0F711A3F50C800366452 /* contact.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contact.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56A4FF31A3DCD2B009D5E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A500B1A3DCD2B009D5E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56A4FED1A3DCD2B009D5E7A = {
+			isa = PBXGroup;
+			children = (
+				A56A4FF81A3DCD2B009D5E7A /* JoyinCheckin */,
+				A56A50111A3DCD2B009D5E7A /* JoyinCheckinTests */,
+				A56A4FF71A3DCD2B009D5E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56A4FF71A3DCD2B009D5E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56A4FF61A3DCD2B009D5E7A /* JoyinCheckin.app */,
+				A56A500E1A3DCD2B009D5E7A /* JoyinCheckinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56A4FF81A3DCD2B009D5E7A /* JoyinCheckin */ = {
+			isa = PBXGroup;
+			children = (
+				A5CE0F6A1A3F4D7D00366452 /* QRCodeReader */,
+				A56A4FFB1A3DCD2B009D5E7A /* AppDelegate.swift */,
+				A56A50001A3DCD2B009D5E7A /* UncheckedViewController.swift */,
+				A5B7E3CD1A3F99DC00FFEDA4 /* CheckedInViewController.swift */,
+				A56A50241A3F483D009D5E7A /* CSV.swift */,
+				A56A50021A3DCD2B009D5E7A /* Main.storyboard */,
+				A56A50051A3DCD2B009D5E7A /* Images.xcassets */,
+				A56A50071A3DCD2B009D5E7A /* LaunchScreen.xib */,
+				A56A4FFD1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodeld */,
+				A56A4FF91A3DCD2B009D5E7A /* Supporting Files */,
+			);
+			path = JoyinCheckin;
+			sourceTree = "<group>";
+		};
+		A56A4FF91A3DCD2B009D5E7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5CE0F711A3F50C800366452 /* contact.csv */,
+				A56A501E1A3F43CD009D5E7A /* icon.png */,
+				A56A501F1A3F43CD009D5E7A /* icon@2x.png */,
+				A56A4FFA1A3DCD2B009D5E7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A56A50111A3DCD2B009D5E7A /* JoyinCheckinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56A50141A3DCD2B009D5E7A /* JoyinCheckinTests.swift */,
+				A56A50121A3DCD2B009D5E7A /* Supporting Files */,
+			);
+			path = JoyinCheckinTests;
+			sourceTree = "<group>";
+		};
+		A56A50121A3DCD2B009D5E7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56A50131A3DCD2B009D5E7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5CE0F6A1A3F4D7D00366452 /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				A5CE0F6B1A3F4D7D00366452 /* QRCodeReader.swift */,
+				A5CE0F6C1A3F4D7D00366452 /* ReaderView.swift */,
+				A5CE0F6D1A3F4D7D00366452 /* SwitchCameraButton.swift */,
+			);
+			path = QRCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56A4FF51A3DCD2B009D5E7A /* JoyinCheckin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A50181A3DCD2B009D5E7A /* Build configuration list for PBXNativeTarget "JoyinCheckin" */;
+			buildPhases = (
+				A56A4FF21A3DCD2B009D5E7A /* Sources */,
+				A56A4FF31A3DCD2B009D5E7A /* Frameworks */,
+				A56A4FF41A3DCD2B009D5E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyinCheckin;
+			productName = JoyinCheckin;
+			productReference = A56A4FF61A3DCD2B009D5E7A /* JoyinCheckin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56A500D1A3DCD2B009D5E7A /* JoyinCheckinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A501B1A3DCD2B009D5E7A /* Build configuration list for PBXNativeTarget "JoyinCheckinTests" */;
+			buildPhases = (
+				A56A500A1A3DCD2B009D5E7A /* Sources */,
+				A56A500B1A3DCD2B009D5E7A /* Frameworks */,
+				A56A500C1A3DCD2B009D5E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56A50101A3DCD2B009D5E7A /* PBXTargetDependency */,
+			);
+			name = JoyinCheckinTests;
+			productName = JoyinCheckinTests;
+			productReference = A56A500E1A3DCD2B009D5E7A /* JoyinCheckinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56A4FEE1A3DCD2B009D5E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pan Hu";
+				TargetAttributes = {
+					A56A4FF51A3DCD2B009D5E7A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A56A500D1A3DCD2B009D5E7A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A56A4FF51A3DCD2B009D5E7A;
+					};
+				};
+			};
+			buildConfigurationList = A56A4FF11A3DCD2B009D5E7A /* Build configuration list for PBXProject "JoyinCheckin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56A4FED1A3DCD2B009D5E7A;
+			productRefGroup = A56A4FF71A3DCD2B009D5E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56A4FF51A3DCD2B009D5E7A /* JoyinCheckin */,
+				A56A500D1A3DCD2B009D5E7A /* JoyinCheckinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56A4FF41A3DCD2B009D5E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A50201A3F43CD009D5E7A /* icon.png in Resources */,
+				A56A50041A3DCD2B009D5E7A /* Main.storyboard in Resources */,
+				A56A50091A3DCD2B009D5E7A /* LaunchScreen.xib in Resources */,
+				A5CE0F721A3F50C800366452 /* contact.csv in Resources */,
+				A56A50061A3DCD2B009D5E7A /* Images.xcassets in Resources */,
+				A56A50211A3F43CD009D5E7A /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A500C1A3DCD2B009D5E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56A4FF21A3DCD2B009D5E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A50251A3F483D009D5E7A /* CSV.swift in Sources */,
+				A5CE0F701A3F4D7D00366452 /* SwitchCameraButton.swift in Sources */,
+				A5CE0F6F1A3F4D7D00366452 /* ReaderView.swift in Sources */,
+				A56A50011A3DCD2B009D5E7A /* UncheckedViewController.swift in Sources */,
+				A5CE0F6E1A3F4D7D00366452 /* QRCodeReader.swift in Sources */,
+				A5B7E3CE1A3F99DC00FFEDA4 /* CheckedInViewController.swift in Sources */,
+				A56A4FFC1A3DCD2B009D5E7A /* AppDelegate.swift in Sources */,
+				A56A4FFF1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A500A1A3DCD2B009D5E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A50151A3DCD2B009D5E7A /* JoyinCheckinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56A50101A3DCD2B009D5E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56A4FF51A3DCD2B009D5E7A /* JoyinCheckin */;
+			targetProxy = A56A500F1A3DCD2B009D5E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56A50021A3DCD2B009D5E7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A50031A3DCD2B009D5E7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A56A50071A3DCD2B009D5E7A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A50081A3DCD2B009D5E7A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56A50161A3DCD2B009D5E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A56A50171A3DCD2B009D5E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56A50191A3DCD2B009D5E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JoyinCheckin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A56A501A1A3DCD2B009D5E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JoyinCheckin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A56A501C1A3DCD2B009D5E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JoyinCheckinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyinCheckin.app/JoyinCheckin";
+			};
+			name = Debug;
+		};
+		A56A501D1A3DCD2B009D5E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JoyinCheckinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyinCheckin.app/JoyinCheckin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56A4FF11A3DCD2B009D5E7A /* Build configuration list for PBXProject "JoyinCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A50161A3DCD2B009D5E7A /* Debug */,
+				A56A50171A3DCD2B009D5E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A50181A3DCD2B009D5E7A /* Build configuration list for PBXNativeTarget "JoyinCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A50191A3DCD2B009D5E7A /* Debug */,
+				A56A501A1A3DCD2B009D5E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A501B1A3DCD2B009D5E7A /* Build configuration list for PBXNativeTarget "JoyinCheckinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A501C1A3DCD2B009D5E7A /* Debug */,
+				A56A501D1A3DCD2B009D5E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A56A4FFD1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A56A4FFE1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodel */,
+			);
+			currentVersion = A56A4FFE1A3DCD2B009D5E7A /* JoyinCheckin.xcdatamodel */;
+			path = JoyinCheckin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A56A4FEE1A3DCD2B009D5E7A /* Project object */;
+}

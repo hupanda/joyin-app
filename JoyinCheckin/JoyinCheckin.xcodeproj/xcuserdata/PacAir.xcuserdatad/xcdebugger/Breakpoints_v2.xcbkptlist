@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/UncheckedViewController.swift"
+            timestampString = "440374014.358243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "UncheckedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JoyinCheckin.UncheckedViewController.__deallocating_deinit"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/UncheckedViewController.swift"
+                  timestampString = "441216154.126274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc JoyinCheckin.UncheckedViewController.__ivar_destroyer"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/UncheckedViewController.swift"
+                  timestampString = "441216154.127927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/UncheckedViewController.swift"
+            timestampString = "441213420.407946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateCounter()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/CheckedInViewController.swift"
+            timestampString = "441213420.407946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "scan(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JoyinCheckin.CheckedInViewController.scan (JoyinCheckin.CheckedInViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.142104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JoyinCheckin.CheckedInViewController.(scan (JoyinCheckin.CheckedInViewController) -&gt; (Swift.AnyObject) -&gt; ()).(closure #1)"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.142386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/CheckedInViewController.swift"
+            timestampString = "441213420.407946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "readerDidCancel(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/CheckedInViewController.swift"
+            timestampString = "441213420.407946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "readerDidCancel(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JoyinCheckin.CheckedInViewController.readerDidCancel (JoyinCheckin.CheckedInViewController)(JoyinCheckin.QRCodeReader) -&gt; ()"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.144549"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for JoyinCheckin.QRCodeReaderDelegate.readerDidCancel &lt;A : JoyinCheckin.QRCodeReaderDelegate&gt;(JoyinCheckin.QRCodeReaderDelegate.Self)(JoyinCheckin.QRCodeReader) -&gt; () in conformance JoyinCheckin.CheckedInViewController : JoyinCheckin.QRCodeReaderDelegate"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.144729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/CheckedInViewController.swift"
+            timestampString = "441213420.407946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "CheckedInViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JoyinCheckin.CheckedInViewController.readerDidCancel (JoyinCheckin.CheckedInViewController)(JoyinCheckin.QRCodeReader) -&gt; ()"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.14518"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for JoyinCheckin.QRCodeReaderDelegate.readerDidCancel &lt;A : JoyinCheckin.QRCodeReaderDelegate&gt;(JoyinCheckin.QRCodeReaderDelegate.Self)(JoyinCheckin.QRCodeReader) -&gt; () in conformance JoyinCheckin.CheckedInViewController : JoyinCheckin.QRCodeReaderDelegate"
+                  moduleName = "JoyinCheckin"
+                  urlString = "file:///Users/PacAir/Desktop/joyin%20app/JoyinCheckin/JoyinCheckin/CheckedInViewController.swift"
+                  timestampString = "441216154.145355"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JoyinCheckin/UncheckedViewController.swift"
+            timestampString = "441213637.905656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

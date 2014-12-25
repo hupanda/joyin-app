@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pnz-u4-Ex1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Unchecked-In-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="UncheckedViewController" customModule="JoyinCheckin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ddb-4S-t6c">
+                                <rect key="frame" x="0.0" y="64" width="600" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="4hM-QA-tir"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="KzS-2i-7ZG"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pug-lL-lXQ">
+                                <rect key="frame" x="279" y="28" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esc-5P-QMn">
+                                <rect key="frame" x="554" y="29" width="35" height="21"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scan:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MPf-k5-jz6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Esc-5P-QMn" secondAttribute="trailing" constant="10" id="fcb-Xf-r15"/>
+                            <constraint firstItem="ddb-4S-t6c" firstAttribute="top" secondItem="Esc-5P-QMn" secondAttribute="bottom" constant="10" id="m8C-PJ-45T"/>
+                            <constraint firstItem="ddb-4S-t6c" firstAttribute="top" secondItem="pug-lL-lXQ" secondAttribute="bottom" constant="15" id="vPi-Fq-2dz"/>
+                            <constraint firstAttribute="centerX" secondItem="pug-lL-lXQ" secondAttribute="centerX" id="wpt-K8-09s"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Unchecked-In" image="icon.png" id="O1I-JD-GuT"/>
+                    <connections>
+                        <outlet property="counterLabel" destination="pug-lL-lXQ" id="pPD-pA-dXT"/>
+                        <outlet property="scanButton" destination="Esc-5P-QMn" id="iKl-dV-c0n"/>
+                        <outlet property="tableView" destination="ddb-4S-t6c" id="PYC-mK-zwE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1924" y="-603"/>
+        </scene>
+        <!--Checked-in-->
+        <scene sceneID="lee-RE-XF0">
+            <objects>
+                <viewController id="fDw-JE-NET" customClass="CheckedInViewController" customModule="JoyinCheckin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wGJ-01-kxA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rbz-yQ-MDI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3C3-4C-hCI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sDx-Fd-umo">
+                                <rect key="frame" x="0.0" y="64" width="600" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sDx-Fd-umo" secondAttribute="height" multiplier="5:4" id="7wZ-vK-dIC"/>
+                                </constraints>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfC-eF-H59">
+                                <rect key="frame" x="279" y="28" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWx-PM-lhe">
+                                <rect key="frame" x="549" y="28" width="35" height="21"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scan:" destination="fDw-JE-NET" eventType="touchUpInside" id="VZQ-Jj-1W7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kfC-eF-H59" secondAttribute="centerX" id="Hy7-4T-SAo"/>
+                            <constraint firstAttribute="trailing" secondItem="VWx-PM-lhe" secondAttribute="trailing" constant="10" id="akh-T6-FtP"/>
+                            <constraint firstItem="sDx-Fd-umo" firstAttribute="top" secondItem="VWx-PM-lhe" secondAttribute="bottom" constant="10" id="mdI-aN-Mx8"/>
+                            <constraint firstItem="sDx-Fd-umo" firstAttribute="top" secondItem="kfC-eF-H59" secondAttribute="bottom" constant="15" id="xB6-CR-Vnr"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Checked-in" image="icon.png" id="e9C-cO-7Vy"/>
+                    <connections>
+                        <outlet property="counterLabel" destination="kfC-eF-H59" id="G9Q-8I-UzR"/>
+                        <outlet property="scanButton" destination="VWx-PM-lhe" id="G5w-no-2gG"/>
+                        <outlet property="tableView" destination="sDx-Fd-umo" id="hdK-SI-mva"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9L3-DL-0iM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1924" y="101"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Voe-e9-7HU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pnz-u4-Ex1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="iUb-8q-XPp"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="xCg-m3-vDa">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="wqy-o2-h8i"/>
+                        <segue destination="fDw-JE-NET" kind="relationship" relationship="viewControllers" id="9Mi-CJ-p95"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q59-MI-dcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="-262"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon.png" width="29" height="29"/>
+    </resources>
+</document>
