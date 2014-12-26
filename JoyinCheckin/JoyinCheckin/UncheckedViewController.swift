@@ -46,8 +46,9 @@ class UncheckedViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell: UITableViewCell = UITableViewCell()
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: nil)
         cell.textLabel?.text = appDelegate.unchecked.values.array[indexPath.row]
+        cell.detailTextLabel?.text = appDelegate.unchecked.keys.array[indexPath.row]
         return cell
     }
     
