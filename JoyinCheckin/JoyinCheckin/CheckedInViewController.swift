@@ -52,34 +52,12 @@ class CheckedInViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath:NSIndexPath) {
-        let key = appDelegate.unchecked.keys.array[indexPath.row]
-        let name = appDelegate.unchecked.values.array[indexPath.row]
+        let key = appDelegate.checked.keys.array[indexPath.row]
+        let name = appDelegate.checked.values.array[indexPath.row]
         appDelegate.checked.removeValueForKey(key)
         appDelegate.unchecked.updateValue(name, forKey: key)
         self.tableView.reloadData()
         self.updateCounter()
-    }
-    
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if (editingStyle == UITableViewCellEditingStyle.Delete)
-        {
-            let cell = self.tableView.cellForRowAtIndexPath(indexPath)
-            let name = cell?.textLabel?.text
-            for key in appDelegate.checked.keys
-            {
-                if (appDelegate.checked[key] == name)
-                {
-                    appDelegate.checked.removeValueForKey(key)
-                    appDelegate.unchecked.updateValue(name!, forKey: key)
-                    self.tableView.reloadData()
-                    self.updateCounter()
-                }
-            }
-        }
-        else
-        {
-            println("Unhandled editing style")
-        }
     }
     
     @IBAction func scan(sender: AnyObject)
@@ -88,7 +66,10 @@ class CheckedInViewController: UIViewController, UITableViewDelegate, UITableVie
         reader.completionBlock =
             { (result: String?) in
                 println(result)
-                if let name = self.appDelegate.unchecked[result!] {
+                if result == nil {
+                    return
+                }
+                else if let name = self.appDelegate.unchecked[result!] {
                     self.appDelegate.unchecked.removeValueForKey(result!)
                     self.appDelegate.checked.updateValue(name, forKey: result!)
                     self.tableView.reloadData()
@@ -124,7 +105,6 @@ class CheckedInViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func readerDidCancel(reader: QRCodeReader) {
-        reader.delegate = nil
         self.dismissViewControllerAnimated(false, nil)
     }
     
